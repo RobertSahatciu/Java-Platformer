@@ -1,21 +1,21 @@
-# Daily Progress Report - Java Platformer
-**Date:** 07/01/2025
+# Daily Progress Report - Java Game Project
 
+**Date:** 16/01/2025
 ## Tasks Completed
 
-- **Keyboard Input:** Implemented `KeyboardInputs` for W, A, S, D movement.
-- **Mouse Input:** Created `MouseInputs` for cursor movement and click detection.
-- **Game Window & Panel:** Developed `GameWindow` and `GamePanel` to handle graphics and input.
-- **Game Initialization:** Designed `Game` and `MainClass` to launch the game.
+### Game Loop Implementation
+- Updated the `Game` class to implement the `Runnable` interface and added a robust game loop to manage frame updates.
+- Introduced a constant `FPS_SET` to control the frame rate, targeting 120 frames per second.
+- Implemented the `run` method to calculate and display frames per second (FPS) in the console.
 
 ## Challenges Faced
-- None noted.
+- The game loop took significant time to implement, leading to a delay of about one week in the overall project timeline.
+- Debugging and optimizing the loop to ensure smooth and consistent frame rates were particularly time-consuming.
 
-## Solutions
-- Used `KeyListener` and `MouseListener` for input handling.
-- Integrated listeners into `GamePanel` for seamless interaction.
+## Solutions Implemented
+- After multiple iterations, the game loop was successfully set up to handle frame updates efficiently.
+- Used a test rectangle to verify the loop's functionality, confirming smooth rendering and updating.
 
 ## Future Plans
-- Enhance visuals with characters and animations.
-- Add collision detection and scoring.
-- Improve input handling and optimize the game loop.
+- Continue building on the game loop to handle more complex game logic and interactions.
+- Refocus efforts to make up for lost time by prioritizing essential features.
