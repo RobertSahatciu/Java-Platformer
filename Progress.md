@@ -1,21 +1,23 @@
 # Daily Progress Report - Java Game Project
 
-**Date:** 16/01/2025
+**Date:** 17/01/2025
+
+## Objective
+Enhance keyboard input handling and player animations in the game.
+
 ## Tasks Completed
 
-### Game Loop Implementation
-- Updated the `Game` class to implement the `Runnable` interface and added a robust game loop to manage frame updates.
-- Introduced a constant `FPS_SET` to control the frame rate, targeting 120 frames per second.
-- Implemented the `run` method to calculate and display frames per second (FPS) in the console.
+- Implemented `KeyboardInputs` class for handling directional movement (`W`, `A`, `S`, `D` keys).
+- Updated `GamePanel` to respond to key actions, improving player control.
+- Integrated sprite animations using a 2D `BufferedImage` array.
+- Developed methods to manage animation states (`IDLE`, `RUNNING`, etc.) and transitions.
+- Refined the game loop to ensure smooth frame updates and responsive animations.
+- Centralized player actions and directions in `Constants` for streamlined management.
 
-## Challenges Faced
-- The game loop took significant time to implement, leading to a delay of about one week in the overall project timeline.
-- Debugging and optimizing the loop to ensure smooth and consistent frame rates were particularly time-consuming.
-
-## Solutions Implemented
-- After multiple iterations, the game loop was successfully set up to handle frame updates efficiently.
-- Used a test rectangle to verify the loop's functionality, confirming smooth rendering and updating.
+## Challenges
+- Synchronizing inputs with animations and maintaining smooth gameplay.
+- Efficiently handling sprite sheet loading and animations.
 
 ## Future Plans
-- Continue building on the game loop to handle more complex game logic and interactions.
-- Refocus efforts to make up for lost time by prioritizing essential features.
+- Optimize the game loop and expand player actions with new animations.
+- Implement collision detection and interactive elements.
