@@ -1,23 +1,34 @@
 # Daily Progress Report - Java Game Project
 
-**Date:** 17/01/2025
+**Date:** 19/01/2025
 
 ## Objective
-Enhance keyboard input handling and player animations in the game.
+Enhance game features by integrating sprite atlases, level rendering, and player animations.
 
 ## Tasks Completed
 
-- Implemented `KeyboardInputs` class for handling directional movement (`W`, `A`, `S`, `D` keys).
-- Updated `GamePanel` to respond to key actions, improving player control.
-- Integrated sprite animations using a 2D `BufferedImage` array.
-- Developed methods to manage animation states (`IDLE`, `RUNNING`, etc.) and transitions.
-- Refined the game loop to ensure smooth frame updates and responsive animations.
-- Centralized player actions and directions in `Constants` for streamlined management.
+- **Sprite Management:**
+    - Integrated external sprite atlases for rendering levels and entities.
+    - Developed a system to load and manage sprite images.
+
+- **Level Rendering:**
+    - Processed level data from image files to dynamically render levels using indexed sprites.
+
+- **Player Animations:**
+    - Implemented player movement with directional control.
+    - Optimised animations for idle and running, added animations for attacking.
+- **Game Loop Enhancements:**
+    - Managed FPS and UPS for smooth rendering.
+    - Updated and rendered game entities and levels within the loop.
+
+- **Input Handling:**
+    - Added keyboard input handling for player actions.
+    - Integrated input processing within the game panel.
 
 ## Challenges
-- Synchronizing inputs with animations and maintaining smooth gameplay.
-- Efficiently handling sprite sheet loading and animations.
+- Synchronizing animations with real-time inputs to maintain smooth gameplay.
+- Managing sprite sheet loading and ensuring efficient memory usage.
 
 ## Future Plans
-- Optimize the game loop and expand player actions with new animations.
-- Implement collision detection and interactive elements.
+- Expand player actions with new animations and implement collision detection and gravity.
+- Develop interactive elements for enhanced gameplay.
